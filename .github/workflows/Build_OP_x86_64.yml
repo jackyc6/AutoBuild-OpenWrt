@@ -11,8 +11,7 @@ name: Build_x86_64
 on: 
   repository_dispatch:
   workflow_dispatch:
-  
-watch:
+  watch:
     types: [started]
 
 jobs:
